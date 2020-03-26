@@ -1,0 +1,21 @@
+{
+  "name": "express-demo",
+  "version": "1.0.0",
+  "description": "express",
+  "main": "template.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.2",
+    "pug": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "gyg",
+  "license": "ISC"
+}

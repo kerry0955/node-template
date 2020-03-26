@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <%- include('components/nav.ejs') -%>
+    <h1> <%= data.name %></h1>
+    <h2>intersting</h2>
+    <ul>
+        <% data.interst.forEach(function(val) { %>
+        <li><%= val %></li>
+        <% }) %>
+    </ul>
+</body>
+
+</html>
